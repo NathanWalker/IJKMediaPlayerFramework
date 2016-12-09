@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IJKMediaPlayer'
-  s.version          = '0.1.0'
+  s.version          = '0.7.5'
   s.summary          = 'A video player based on ffplay.'
 
 # This description is used to generate tags and improve search results.
@@ -33,5 +33,5 @@ This is the mirror framework for ios IJKMediaPlayer. Because IJKMediaPlayer have
   # s.source_files = 'IJKMediaPlayer/Classes/**/*'
   
   s.ios.vendored_frameworks = 'IJKMediaPlayer/Frameworks/IJKMediaFramework.framework'
-  s.ios.library = 'z'
+  s.ios.libraries = 'z', 'bz2'
 end
