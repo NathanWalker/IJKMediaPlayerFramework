@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IJKMediaPlayer'
-  s.version          = '0.7.5'
+  s.version          = '0.7.6'
   s.summary          = 'A video player based on ffplay.'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 This is the mirror framework for ios IJKMediaPlayer. Because IJKMediaPlayer have no time to put it on cocoapods officially, we help them did it and maintain it!
                        DESC
 
-  s.homepage         = 'https://github.com/Vbytes/IJKMediaPlayerFramework'
+  s.homepage         = 'https://github.com/NathanWalker/IJKMediaPlayerFramework'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Vbytes' => 'repository@exatech.cn' }
-  s.source           = { :git => 'https://github.com/Vbytes/IJKMediaPlayerFramework.git', :tag => s.version.to_s }
+  s.author           = { 'NathanWalker' => 'walkerrunpdx@gmail.com' }
+  s.source           = { :git => 'https://github.com/NathanWalker/IJKMediaPlayerFramework.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
